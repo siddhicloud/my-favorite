@@ -78,14 +78,13 @@ p {
 
 .menu {
     list-style: none;
-    font-family: cursive;
     float: right;
-    top: 50px;
+    top: 10px;
     right: 30px;
     cursor: pointer;
     color: black;
     z-index: 10;
-
+    position: fixed;
 }
 
 .links {
@@ -102,4 +101,8 @@ p {
 .links:hover {
     background-color: crimson;
 
+}
+
+html {
+    scroll-behavior: smooth;
 }
